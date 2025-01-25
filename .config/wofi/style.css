@@ -1,0 +1,44 @@
+@import '/home/tem/.config/wofi/colors.css'; 
+
+* {
+	font-family: "CaskaydiaCove Nerd Font", "JetbrainsMono Nerd Font", monospace;
+}
+
+window {
+	margin: 0px;
+	padding: 0px;
+}
+
+#input {
+	margin: 5px;
+	border-radius: 0px;
+	border: none;
+	background-color: @secondary_container;
+	color: @secondary;
+}
+
+#inner-box{
+	background-color: @secondary_container;
+}
+
+#outer-box{
+	padding: 10px;
+	background-color: @secondary_container;
+}
+
+#scroll{
+	margin: 5px;
+}
+
+#text {
+	padding: 4px;
+	color: @secondary;
+}
+
+#text:selected{
+	color: @secondary_container;
+}
+
+#entry:selected{
+	background-color: @secondary;
+}
