@@ -5,6 +5,7 @@ these are still in progress!! i'm still a beginner ricer and have yet to learn h
 
 # showcase
 ![1](./.github/1.png)
+> this wallpaper was made by [ShibeDraws](https://danbooru.donmai.us/posts/8745834)
 
 # grains 
 > because rice is comprised of its grains
