@@ -1,0 +1,45 @@
+{
+    "spacing": 0,
+    "margin-top": 10,
+    "width": 800,
+    "modules-left": [ 
+        "clock",
+    ],
+    "modules-center": [ 
+        "hyprland/workspaces",
+    ],
+    "modules-right": [ 
+        "wireplumber",
+        "battery",
+    ],
+
+    "clock": {
+        "format": "{:%H:%M   %b %d}"
+    },
+
+    "battery": {
+        "format": "{capacity} {icon}",
+        "states": {
+            "yay": 100,
+            "cruising": 80,
+            "okay": 60,
+            "warning": 30,
+            "danger": 10,
+        },
+        "format-icons": [" ", " ", " ", " ", " "],
+    },
+
+    "wireplumber": {
+        "format": "{volume} {icon}",
+        "format-muted": "",
+        "format-icons": ["", " ", " "]
+    },
+
+    "hyprland/workspaces": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": " ",
+            "active": " "
+        }
+    }
+}

@@ -1,0 +1,52 @@
+@import 'colors.css';
+* {
+    font-family: JetBrainsMono Nerd Font, monospace;
+    min-height: 0;
+}
+
+window#waybar,
+window#waybar.empty
+window#waybar.empty #window {
+    background-color: @secondary_container;
+    padding: 0;
+    border: 0;
+}
+
+.modules-left,
+.modules-center,
+.modules-right {
+    min-height: 35px;
+}
+
+#clock {
+    color: @secondary;
+    padding: 0 20px;
+}
+
+#battery {
+    color: @secondary;
+    padding: 0 20px 0 10px;
+}
+
+#battery.warning {
+    color: @error;
+}
+
+#wireplumber {
+    color: @secondary;
+    padding: 0 10px;
+}
+
+#workspaces {
+    padding: 0 50px;
+}
+
+#workspaces button {
+    color: @secondary;
+    padding: 0 3px;
+    font-size: 10px;
+}
+
+#workspaces button.active{
+    color: @secondary;
+}
