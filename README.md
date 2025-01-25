@@ -24,4 +24,4 @@ these are still in progress!! i'm still a beginner ricer and have yet to learn h
 | wall | swww |
 
 # additional information
-if you're stowing (`stow .`), the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/oodum/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
+the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/oodum/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
