@@ -14,6 +14,7 @@ these are still in progress - i'm still new to ricing and have yet to learn how 
 
 | util | package |
 | --- | --- |
+| wm | hyprland |
 | terminal | kitty |
 | shell | zsh |
 | font | jetbrains mono + cascadia code |
@@ -21,17 +22,23 @@ these are still in progress - i'm still new to ricing and have yet to learn how 
 | colours | matugen |
 | editor | nvim |
 | menu | wofi |
-| titlebar | hyprbars |
+| titlebar | [hyprbars](https://hyprland.org/plugins/hyprbars/) |
 | bar | waybar |
 | notification | mako |
 | wall | swww |
+
+the following **non-essential** packages are not riced (yet). they're used in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc) and [hyprland config](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf), but won't cause huge problems if you don't have them installed.  
+
+```
+thunar hyprshot feh tree
+```
 
 # additional information
 ### using this rice
 this rice was configured with [`stow`](https://archlinux.org/packages/extra/any/stow/), but you can use whichever "symlink farm manager" you'd like, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
-the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/oodum/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
+the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
 
 the firefox color theme is the exception. you can install it with [another script](./.mozilla/firefox/theme.sh):
 ```
