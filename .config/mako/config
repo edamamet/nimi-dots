@@ -1,0 +1,13 @@
+max-visible=10
+layer=top
+width=350
+height=170
+font=CaskaydiaCove NF 11
+background-color=#1e1e2edd
+text-color=#d8dee9
+border-color=#b4befe
+border-radius=4
+max-icon-size=48
+default-timeout=10000
+anchor=top-right
+margin=20
