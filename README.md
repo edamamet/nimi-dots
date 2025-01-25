@@ -40,6 +40,7 @@ for convenience, you can also use the `theme-firefox` alias (as long as it has e
 theme-firefox
 ```
 
+### nimifox ascii
 if you want the nimifox ascii and you already have [textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
 
 1. find the defaults.css folder:
