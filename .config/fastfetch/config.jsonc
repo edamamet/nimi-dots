@@ -1,0 +1,81 @@
+// Inspired by Catnap
+{
+    "$schema": "https://github.com/fastfetch-cli/fastfetch/raw/dev/doc/json_schema.json",
+    "logo": {
+	"source": "~/.config/fastfetch/logo.jpg",
+        "type": "kitty",
+	"height": 8,
+        "padding": {
+            "top": 2,
+	    "left": 5
+        }
+    },
+    "display": {
+        "separator": " "
+    },
+    "modules": [
+        {
+            "key": " ",
+            "type": "custom"
+        },
+        {
+            "key": "╭───────────╮",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#31} user    {#keys}│",
+            "type": "title",
+            "format": "{user-name}"
+        },
+        {
+            "key": "│ {#32}󰇅 host    {#keys}│",
+            "type": "title",
+            "format": "{host-name}"
+        },
+        {
+            "key": "│ {#33}󰅐 uptime  {#keys}│",
+            "type": "uptime"
+        },
+        {
+            "key": "│ {#34}{icon} distro  {#keys}│",
+            "type": "os"
+        },
+        {
+            "key": "│ {#35}󰇄 desktop {#keys}│",
+            "type": "de"
+        },
+        {
+            "key": "│ {#36} term    {#keys}│",
+            "type": "terminal"
+        },
+        {
+            "key": "│ {#31}󰍛 cpu     {#keys}│",
+            "type": "cpu",
+	    "format": "{0}",
+            "showPeCoreCount": true
+        },
+        {
+            "key": "│ {#32}󰢮 gpu     {#keys}│",
+            "type": "gpu",
+	    "format": "{0} {2:24}",
+	    "hideType": "integrated"
+        },
+        {
+            "key": "│ {#33} memory  {#keys}│",
+            "type": "memory"
+        },
+        {
+            "key": "├───────────┤",
+            "type": "custom"
+        },
+        {
+            "key": "│ {#39} colors  {#keys}│",
+            "type": "colors",
+            "symbol": "circle"
+        },
+        {
+            "key": "╰───────────╯",
+            "type": "custom"
+        }
+    ]
+}
