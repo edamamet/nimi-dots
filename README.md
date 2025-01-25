@@ -8,7 +8,7 @@ these are still in progress - i'm still new to ricing and have yet to learn how 
 > this wallpaper was made by [ShibeDraws](https://danbooru.donmai.us/posts/8745834)
 
 # grains 
-> because rice is composed of its grains
+> because rice is composed of grains
 
 | util | package |
 | --- | --- |
