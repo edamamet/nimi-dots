@@ -1,7 +1,7 @@
 # nimi
 hi these are my nimi-themed dotfiles
 
-these are still in progress!! i'm still a beginner ricer and have yet to learn how to theme everything else (nvim oops)
+these are still in progress - i'm still new to ricing and have yet to learn how to theme everything else (nvim oops)
 
 # showcase
 ![1](./.github/1.png)
