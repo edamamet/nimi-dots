@@ -25,9 +25,10 @@ these are still in progress - i'm still new to ricing and have yet to learn how 
 | wall | swww |
 
 # additional information
+### refreshing everything (wallpaper, bar, hyprland, etc.)
 the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/oodum/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
 
-the firefox theme is the exception. you can install it with [another script](./.mozilla/firefox/theme.sh):
+the firefox color theme is the exception. you can install it with [another script](./.mozilla/firefox/theme.sh):
 ```
 # allow execution of the script
 chmod +x .mozilla/firefox/theme.sh
