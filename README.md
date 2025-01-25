@@ -39,3 +39,15 @@ for convenience, you can also use the `theme-firefox` alias (as long as it has e
 ```
 theme-firefox
 ```
+
+if you want the nimifox ascii and you already have [textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
+
+1. find the defaults.css folder:
+```
+find ~/.mozilla -name '*defaults.css'
+```
+
+2. replace the string inside `--tf-newtab-logo` with the following:
+```
+          _           _ ____           \A    ____  (_)___ ___  (_) __/___  _  __\A   / __ \\/ / __ `__ \\/ / /_/ __ \\| |/_/\A  / / / / / / / / / / / __/ /_/ />  <  \A /_/ /_/_/_/ /_/ /_/_/_/  \\____/_/|_|
+```
