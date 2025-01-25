@@ -39,7 +39,7 @@ chmod +x .mozilla/firefox/theme.sh
 ./.mozilla/firefox/theme.sh
 ```
 
-for convenience, you can also use the `theme-firefox` alias (as long as it has execute perms):
+for convenience, you can also use the `theme-firefox` alias (as long as `theme.sh` has execute perms):
 ```
 theme-firefox
 ```
