@@ -33,3 +33,8 @@ chmod +x .mozilla/firefox/theme.sh
 
 ./.mozilla/firefox/theme.sh
 ```
+
+alternatively, use the `theme-firefox` alias:
+```
+theme-firefox
+```
