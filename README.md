@@ -25,3 +25,11 @@ these are still in progress!! i'm still a beginner ricer and have yet to learn h
 
 # additional information
 the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/oodum/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
+
+the firefox theme is the exception. you can install it with [another script](./.mozilla/firefox/theme.sh):
+```
+# allow execution of the script
+chmod +x .mozilla/firefox/theme.sh
+
+./.mozilla/firefox/theme.sh
+```
