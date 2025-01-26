@@ -54,11 +54,11 @@ backup your config. this rice was configured with
 [this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
 doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
 
-once you've backed everything up, you can proceed with
+as long as your config is stowed and backed up stored in ~/dotfiles/your-config-name, you're 
+ready to proceed:
 
 ```
-# it doesn't matter which directory you're in. you can do this in ~/Downloads if you want.
-
+# ~/dotfiles
 git clone https://github.com/edamamet/nimi-dots.git
 ```
 
