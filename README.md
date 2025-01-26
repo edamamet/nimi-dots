@@ -40,7 +40,7 @@ thunar hyprshot feh tree
 # additional information
 
 <details>
-<summary>installing this rice (no risk!)</summary>
+<summary>installing this rice (no risk!) (super duper beginner friendly!)</summary>
 
 <br>
 
