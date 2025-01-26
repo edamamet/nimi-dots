@@ -38,7 +38,9 @@ thunar hyprshot feh tree
 ```
 
 # additional information
-### using this rice
+
+<details>
+<summary>installing this rice (no risk!)</summary>
 i highly doubt anyone will try running this rice on bare metal, but if you would like to,
 there's no risk in losing **anything** as long as you back everything up (it's easy).
 i've also provided some very basic tools so you can try this rice out quickly.
@@ -63,9 +65,13 @@ git restore .
 ```
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
-the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox.
+the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
 
-### firefox
+</details>
+
+<details>
+<summary>firefox</summary>
+
 the firefox color theme is the exception. you can install it with [this link](https://color.firefox.com/?theme=XQAAAALuAwAAAAAAAABBKYhm849SCicxcUapi38oKRicm6da8pvkvB3S2AgG4kJ875br_76UUjd77ueS_P_cSKnTB_pYaXhspuz-5e3Tw2D6S8U-A09ql1HKtA5_j04CuV-F6skLIRIRUJdrzsoU3PCHTLpVZKzRQSRwqwsbndHALDOaCKLihNnZLazieAts34XJ6JhhoEe9eeCvHQUDiUD-KXBB3v0etQhIomL2DvF8nkkYxorIu1JUu0wENbKAtQwF7yt_jXj_22BGLnU4fdaw9zhd41VG2FcdKQb9OL4-fY12zKeARoIVD0-x_fJKYKqJGBy8umGnUISitIteoxlbpr6yly5j2cSN4ACfIg0nh2dcBq9KQ3qn4roq1JMxFe8frZ1oOeb7r3wGoa31yLnlVg7_qmGJI4pRvITXqK37aUcrkCEdnLpN8E2PKjtHeS6KtD65szRsonMAPAn4o8vnA-WbXElckbH3Qvvskkt1NDsRbEqjpKvxpu5eJ-MUTVtYoccAkyj1Qhw5F29mUZGZLf_zvVyi) or with a [script](./.mozilla/firefox/theme.sh)
 that does it for you (so you don't need to open this page to install it):
 ```
@@ -81,6 +87,7 @@ theme-firefox
 ```
 
 ### nimifox ascii
+
 if you want the nimifox ascii (firefox startup ascii) and you already have 
 [textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
 
@@ -94,7 +101,11 @@ find ~/.mozilla -name '*defaults.css'
           _           _ ____           \A    ____  (_)___ ___  (_) __/___  _  __\A   / __ \\/ / __ `__ \\/ / /_/ __ \\| |/_/\A  / / / / / / / / / / / __/ /_/ />  <  \A /_/ /_/_/_/ /_/ /_/_/_/  \\____/_/|_|
 ```
 
-### keybinds
+</details>
+
+<details>
+<summary>keybinds</summary>
+
 there are a lot of keybinds, but the bare minimum you'll need are:
 > mod is your windows key (probably)
 
@@ -108,8 +119,19 @@ there are a lot of keybinds, but the bare minimum you'll need are:
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
 
 
+</details>
+
+<details>
+<summary>removing this rice</summary>
+
 ### removing this rice
 use your dotfile manager to de-symlink everything:
 ```
 stow -D nimi
+rm -rf nimi
 ```
+
+</details>
+
+
+
