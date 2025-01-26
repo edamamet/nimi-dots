@@ -39,20 +39,25 @@ thunar hyprshot feh tree
 
 # additional information
 ### using this rice
-i highly doubt anyone will try running this rice on bare metal, but just in case,
-i did provide some very basic tools. 
+i highly doubt anyone will try running this rice on bare metal, but if you would like to,
+there's no risk in losing **anything** as long as you back everything up (it's easy).
+i've also provided some very basic tools so you can try this rice out quickly.
 
-if you're a newbie like me, i'd **highly** recommend using a dotfile/symlink manager. this rice 
-was configured with [`stow`](https://archlinux.org/packages/extra/any/stow/), but the manager 
+if you're a newbie like me, i'd **highly** recommend using a dotfile/symlink manager to 
+backup your config. this rice was configured with 
+[`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it by 
+[this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
 doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
+
+once you've backed everything up, you can proceed with
 
 ```
 git clone https://github.com/edamamet/nimi-dots.git
 
-# if it's your first time using stow:
+# if it's your first time using stow OR you've un-stowed your config:
 stow nimi 
 
-# if you're already using stow, use the following command
+# if you're already using stow and don't want to un-stow:
 stow --override='.*?' --adopt nimi
 git restore .
 ```
