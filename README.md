@@ -75,6 +75,20 @@ for convenience, you can also use the `theme-firefox` alias (as long as `theme.s
 theme-firefox
 ```
 
+### nimifox ascii
+if you want the nimifox ascii (firefox startup ascii) and you already have 
+[textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
+
+1. find the defaults.css folder:
+```
+find ~/.mozilla -name '*defaults.css'
+```
+
+2. replace the string inside `--tf-newtab-logo` with the following:
+```
+          _           _ ____           \A    ____  (_)___ ___  (_) __/___  _  __\A   / __ \\/ / __ `__ \\/ / /_/ __ \\| |/_/\A  / / / / / / / / / / / __/ /_/ />  <  \A /_/ /_/_/_/ /_/ /_/_/_/  \\____/_/|_|
+```
+
 ### keybinds
 there are a lot of keybinds, but the bare minimum you'll need are:
 > mod is your windows key (probably)
@@ -88,18 +102,6 @@ there are a lot of keybinds, but the bare minimum you'll need are:
 
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
 
-### nimifox ascii
-if you want the nimifox ascii and you already have [textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
-
-1. find the defaults.css folder:
-```
-find ~/.mozilla -name '*defaults.css'
-```
-
-2. replace the string inside `--tf-newtab-logo` with the following:
-```
-          _           _ ____           \A    ____  (_)___ ___  (_) __/___  _  __\A   / __ \\/ / __ `__ \\/ / /_/ __ \\| |/_/\A  / / / / / / / / / / / __/ /_/ />  <  \A /_/ /_/_/_/ /_/ /_/_/_/  \\____/_/|_|
-```
 
 ### removing this rice
 use your dotfile manager to de-symlink everything:
