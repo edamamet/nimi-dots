@@ -45,11 +45,10 @@ thunar hyprshot feh tree
 <br>
 
 i highly doubt anyone will try running this rice on bare metal, but if you would like to, 
-i've provided some very basic tools so you can try it out quickly, and 
 there's no risk in losing **anything** as long as you back everything up (it's easy). 
 
 <details>
-<summary>if you're a newbie like me and don't know how to backup dotfiles</summary>
+<summary>if you've never backed up dotfiles</summary>
 
 <br>
 
@@ -61,10 +60,13 @@ backup your config. this rice was configured with
 <details>
 <summary>if you just followed the youtube tutorial</summary>
 <br>
+
 make sure you're using git on your config, and pushed it up to github/gitlab/whatever just
 in case you mess up and need to reclone.
 
-move all your dotfiles (including .git/) into a subdirectory. name it whatever you want. 
+to make switching between dotfiles easier, move all your dotfiles (including .git/) 
+into a subdirectory. name it whatever you want. 
+
 your dotfiles should now be in `~/dotfiles/your-dotfiles-name`
 
 this way, you can use `fstow your-dotfiles-name`, and you can switch to mine with
