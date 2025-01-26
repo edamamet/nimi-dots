@@ -54,8 +54,32 @@ backup your config. this rice was configured with
 [this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
 doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
 
-as long as your config is stowed and backed up stored in ~/dotfiles/your-config-name, you're 
+<details>
+<summary>if you just followed the youtube tutorial</summary>
+<br>
+make sure you're using git on your config, and pushed it up to github/gitlab/whatever just
+in case you mess up and need to reclone.
+
+move all your dotfiles (including .git/) into a subdirectory. name it whatever you want. 
+your dotfiles should now be in `~/dotfiles/your-dotfiles-name`
+
+this way, you can use `fstow your-dotfiles-name`, and you can switch to mine with
+`fstow nimi-dots`, and back again.
+
+NOTE: `fstow` is an alias of mine and it's included in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc).
+for reference, the alias is:
+
+```
+stow --override='.*?' --adopt nimi-dots
+```
+
+</details>
+
+as long as your config is stored in `~/dotfiles/your-dotfiles-name`, you're 
 ready to proceed:
+
+> the folder doesn't have to be "dotfiles", it just has to be at the root.
+if you decide not to use root, add the `-t $HOME` argument to the stow command
 
 ```
 # ~/dotfiles
@@ -63,13 +87,9 @@ git clone https://github.com/edamamet/nimi-dots.git
 ```
 
 ```
-# if AND ONLY IF you're at the root directory (you git cloned and the folder is at ~/nimi):
-stow .
-# otherwise (at places like ~/Downloads):
-stow nimi
-
-# if you're already using stow and don't want to un-stow:
-stow --override='.*?' --adopt nimi
+# force stow nimi-dots
+stow --override='.*?' --adopt nimi-dots
+cd nimi-dots
 git restore .
 ```
 
@@ -145,6 +165,7 @@ you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/eda
 
 use your dotfile manager to de-symlink everything:
 ```
+# ~/dotfiles
 stow -D nimi
 rm -rf nimi
 ```
