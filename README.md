@@ -35,7 +35,23 @@ thunar hyprshot feh tree
 
 # additional information
 ### using this rice
-this rice was configured with [`stow`](https://archlinux.org/packages/extra/any/stow/), but you can use whichever "symlink farm manager" you'd like, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
+i highly doubt anyone will try running this rice on bare metal, but just in case,
+i did provide some very basic tools. 
+
+if you're a newbie like me, i'd **highly** recommend using a dotfile/symlink manager. this rice 
+was configured with [`stow`](https://archlinux.org/packages/extra/any/stow/), but the manager 
+doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
+
+```
+git clone https://github.com/edamamet/nimi-dots.git
+
+# if it's your first time using stow:
+stow nimi 
+
+# if you're already using stow, use the following command
+stow --override='.*?' --adopt nimi
+git restore .
+```
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
 the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of everything (hopefully)
@@ -77,4 +93,10 @@ find ~/.mozilla -name '*defaults.css'
 2. replace the string inside `--tf-newtab-logo` with the following:
 ```
           _           _ ____           \A    ____  (_)___ ___  (_) __/___  _  __\A   / __ \\/ / __ `__ \\/ / /_/ __ \\| |/_/\A  / / / / / / / / / / / __/ /_/ />  <  \A /_/ /_/_/_/ /_/ /_/_/_/  \\____/_/|_|
+```
+
+### removing this rice
+use your dotfile manager to de-symlink everything:
+```
+stow -D nimi
 ```
