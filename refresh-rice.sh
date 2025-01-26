@@ -4,8 +4,8 @@
 ./.config/waybar/waybar.sh
 
 # hypr
-hyprctl reload
 hyprpm enable hyprbars
+hyprctl reload
 hyprpm reload
 
 # swww
