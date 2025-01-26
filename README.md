@@ -41,6 +41,9 @@ thunar hyprshot feh tree
 
 <details>
 <summary>installing this rice (no risk!)</summary>
+
+<br>
+
 i highly doubt anyone will try running this rice on bare metal, but if you would like to,
 there's no risk in losing **anything** as long as you back everything up (it's easy).
 i've also provided some very basic tools so you can try this rice out quickly.
@@ -71,6 +74,8 @@ the hyprland config has a bind `mod + b` that will run the [refresh script](http
 
 <details>
 <summary>firefox</summary>
+
+<br>
 
 the tui look is [textfox](https://github.com/adriankarlen/textfox)
 
@@ -108,6 +113,8 @@ find ~/.mozilla -name '*defaults.css'
 <details>
 <summary>keybinds</summary>
 
+<br>
+
 there are a lot of keybinds, but the bare minimum you'll need are:
 > mod is your windows key (probably)
 
@@ -126,7 +133,8 @@ you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/eda
 <details>
 <summary>removing this rice</summary>
 
-### removing this rice
+<br>
+
 use your dotfile manager to de-symlink everything:
 ```
 stow -D nimi
