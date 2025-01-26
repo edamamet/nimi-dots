@@ -60,7 +60,9 @@ once you've backed everything up, you can proceed with
 # it doesn't matter which directory you're in. you can do this in ~/Downloads if you want.
 
 git clone https://github.com/edamamet/nimi-dots.git
+```
 
+```
 # if AND ONLY IF you're at the root directory (you git cloned and the folder is at ~/nimi):
 stow .
 # otherwise (at places like ~/Downloads):
