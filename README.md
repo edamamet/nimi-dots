@@ -57,15 +57,21 @@ doesn't really matter, just make sure to [ignore the same files](https://github.
 once you've backed everything up, you can proceed with
 
 ```
+# it doesn't matter which directory you're in. you can do this in ~/Downloads if you want.
+
 git clone https://github.com/edamamet/nimi-dots.git
 
-# if it's your first time using stow OR you've already un-stowed your config:
-stow nimi 
+# if AND ONLY IF you're at the root directory (you git cloned and the folder is at ~/nimi):
+stow .
+# otherwise (at places like ~/Downloads):
+stow nimi
 
 # if you're already using stow and don't want to un-stow:
 stow --override='.*?' --adopt nimi
 git restore .
 ```
+
+want to uninstall this config? no problem. scroll to the bottom of this readme or click [here](#uninstall) to navigate to the uninstallation section 
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
 the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
@@ -131,7 +137,7 @@ you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/eda
 </details>
 
 <details>
-<summary>removing this rice</summary>
+<summary id="uninstall">removing this rice</summary>
 
 <br>
 
@@ -142,6 +148,3 @@ rm -rf nimi
 ```
 
 </details>
-
-
-
