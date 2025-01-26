@@ -44,7 +44,8 @@ thunar hyprshot feh tree
 
 <br>
 
-> this installation guide uses stow/symlink managers. if you're not
+> this installation guide uses stow/symlink managers. if you don't 
+know what that is, keep reading. otherwise, if you're not
 about that life, or you use nixos, you can install it the old-fashioned way, 
 but it's not covered here. you probably don't need an installation guide anyway
 
