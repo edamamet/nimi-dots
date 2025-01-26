@@ -48,11 +48,15 @@ i highly doubt anyone will try running this rice on bare metal, but if you would
 i've provided some very basic tools so you can try it out quickly, and 
 there's no risk in losing **anything** as long as you back everything up (it's easy). 
 
-if you're a newbie and don't know how, i'd **highly** recommend using a dotfile/symlink manager to 
+<details>
+<summary>if you're a newbie like me and don't know how to backup dotfiles</summary>
+
+<br>
+
+i'd **highly** recommend using a dotfile/symlink manager to 
 backup your config. this rice was configured with 
 [`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it from 
-[this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
-doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
+[this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs))
 
 <details>
 <summary>if you just followed the youtube tutorial</summary>
@@ -74,9 +78,12 @@ stow --override='.*?' --adopt nimi-dots
 ```
 
 </details>
+</details>
 
-as long as your config is stored in `~/dotfiles/your-dotfiles-name`, you're 
-ready to proceed:
+the dotfile manager doesn't really matter, just make sure to 
+[ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
+
+navigate to your ~/dotfiles directory
 
 > the folder doesn't have to be "dotfiles", it just has to be at the root.
 if you decide not to use root, add the `-t $HOME` argument to the stow command
