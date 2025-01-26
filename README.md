@@ -27,7 +27,11 @@ hi these are my nimi-themed dotfiles
 | notification | mako |
 | wall | swww |
 
-the following **non-essential** packages are not riced (yet). they're used in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc) and [hyprland config](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf), but won't cause huge problems if you don't have them installed.  
+if you're planning on [installing this rice](#additional-information), the following 
+**non-essential** (not riced (yet)) packages are used in my 
+[zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc) and 
+[hyprland config](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf), 
+but won't cause huge problems if you don't have them installed.  
 
 ```
 thunar hyprshot feh tree
