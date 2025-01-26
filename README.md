@@ -44,11 +44,11 @@ thunar hyprshot feh tree
 
 <br>
 
-i highly doubt anyone will try running this rice on bare metal, but if you would like to,
-there's no risk in losing **anything** as long as you back everything up (it's easy).
-i've also provided some very basic tools so you can try this rice out quickly.
+i highly doubt anyone will try running this rice on bare metal, but if you would like to, 
+i've provided some very basic tools so you can try it out quickly, and 
+there's no risk in losing **anything** as long as you back everything up (it's easy). 
 
-if you're a newbie like me, i'd **highly** recommend using a dotfile/symlink manager to 
+if you're a newbie and don't know how, i'd **highly** recommend using a dotfile/symlink manager to 
 backup your config. this rice was configured with 
 [`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it from 
 [this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
