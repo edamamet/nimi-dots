@@ -68,15 +68,15 @@ backup your config. this rice was configured with
 to make switching between dotfiles easier, move all your dotfiles (including .git/) 
 into a subdirectory. name it whatever you want. 
 
-your dotfiles should now be in `~/dotfiles/your-dotfiles-name`
+your dotfiles should now be in `~/dotfiles/your-dotfiles`
 
-this way, you can use `fstow your-dotfiles-name`, and you can switch to mine with
+this way, you can use `fstow your-dotfiles`, and you can switch to mine with
 `fstow nimi-dots`, and back again.
 
 >`fstow` is an alias of mine and it's included in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc).
 for reference, the alias is:
 ```
-stow --override='.*?' --adopt nimi-dots
+stow --override='.*?' --adopt
 ```
 
 </details>
@@ -175,6 +175,7 @@ you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/eda
 use your dotfile manager to de-symlink everything:
 ```
 # ~/dotfiles
+fstow your-dotfiles
 stow -D nimi-dots
 rm -rf nimi-dots
 ```
