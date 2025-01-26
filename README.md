@@ -44,6 +44,10 @@ thunar hyprshot feh tree
 
 <br>
 
+> this installation guide uses stow/symlink managers. if you're not
+about that life, or you use nixos, you can install it the old-fashioned way, 
+but it's not covered here. you probably don't need an installation guide anyway
+
 i highly doubt anyone will try running this rice on bare metal, but if you would like to, 
 there's no risk in losing **anything** as long as you back everything up (it's easy). 
 
