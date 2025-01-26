@@ -59,7 +59,7 @@ once you've backed everything up, you can proceed with
 ```
 git clone https://github.com/edamamet/nimi-dots.git
 
-# if it's your first time using stow OR you've un-stowed your config:
+# if it's your first time using stow OR you've already un-stowed your config:
 stow nimi 
 
 # if you're already using stow and don't want to un-stow:
