@@ -49,7 +49,7 @@ about that life, or you use nixos, you can install it the old-fashioned way,
 but it's not covered here. you probably don't need an installation guide anyway
 
 i highly doubt anyone will try running this rice on bare metal, but if you would like to, 
-there's no risk in losing **anything** as long as you back everything up (it's easy). 
+there's no risk in losing **anything** as long as you back up your dotfiles (it's easy). 
 
 <details>
 <summary>if you've never backed up dotfiles</summary>
@@ -82,13 +82,13 @@ stow --override='.*?' --adopt nimi-dots
 </details>
 </details>
 
-the dotfile manager doesn't really matter, just make sure to 
+the package you use for dotfile management doesn't really matter, just make sure to 
 [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
 
 navigate to your ~/dotfiles directory
 
 > the folder doesn't have to be "dotfiles", it just has to be at the root.
-if you decide not to use root, add the `-t $HOME` argument to the stow command
+if you decide not to place it at root, add the `-t $HOME` argument to the stow command
 
 ```
 # ~/dotfiles
@@ -135,7 +135,7 @@ theme-firefox
 if you want the nimifox ascii (firefox startup ascii) and you already have 
 [textfox](https://github.com/adriankarlen/textfox) installed (currently working on a script that can do the following):
 
-1. find the defaults.css folder:
+1. find and open defaults.css. the location can be found by running the following:
 ```
 find ~/.mozilla -name '*defaults.css'
 ```
@@ -175,8 +175,8 @@ you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/eda
 use your dotfile manager to de-symlink everything:
 ```
 # ~/dotfiles
-stow -D nimi
-rm -rf nimi
+stow -D nimi-dots
+rm -rf nimi-dots
 ```
 
 </details>
