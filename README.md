@@ -73,9 +73,8 @@ your dotfiles should now be in `~/dotfiles/your-dotfiles-name`
 this way, you can use `fstow your-dotfiles-name`, and you can switch to mine with
 `fstow nimi-dots`, and back again.
 
-NOTE: `fstow` is an alias of mine and it's included in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc).
+>`fstow` is an alias of mine and it's included in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc).
 for reference, the alias is:
-
 ```
 stow --override='.*?' --adopt nimi-dots
 ```
