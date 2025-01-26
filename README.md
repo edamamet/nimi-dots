@@ -21,7 +21,7 @@ hi these are my nimi-themed dotfiles
 | browser | firefox ([textfox](https://github.com/adriankarlen/textfox) theme) |
 | colours | matugen |
 | editor | nvim |
-| menu | wofi |
+| launcher | wofi |
 | titlebar | [hyprbars](https://hyprland.org/plugins/hyprbars/) |
 | bar | waybar |
 | notification | mako |
@@ -126,9 +126,9 @@ there are a lot of keybinds, but the bare minimum you'll need are:
 
 | bind | action |
 | --- | --- |
-| mod + enter | kitty |
-| mod + space | wofi |
-| mod + e | thunar |
+| mod + enter | terminal |
+| mod + space | app launcher |
+| mod + e | file explorer |
 | mod + b | refresh everything* |
 
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
