@@ -50,7 +50,7 @@ i've also provided some very basic tools so you can try this rice out quickly.
 
 if you're a newbie like me, i'd **highly** recommend using a dotfile/symlink manager to 
 backup your config. this rice was configured with 
-[`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it by 
+[`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it from 
 [this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs)), but the manager 
 doesn't really matter, just make sure to [ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
 
