@@ -65,9 +65,6 @@ backup your config. this rice was configured with
 <summary>if you just followed the youtube tutorial</summary>
 <br>
 
-make sure you're using git on your config, and pushed it up to github/gitlab/whatever just
-in case you mess up and need to reclone.
-
 to make switching between dotfiles easier, move all your dotfiles (including .git/) 
 into a subdirectory. name it whatever you want. 
 
