@@ -13,3 +13,6 @@ hyprpm reload
 
 # matugen
 matugen color hex 4f6946 -m light
+
+# notify
+notify-send "rice refreshed!"
