@@ -104,10 +104,25 @@ cd nimi-dots
 git restore .
 ```
 
-want to uninstall this config? no problem. scroll to the bottom of this readme or click [here](#uninstall) to navigate to the uninstallation section 
+want to uninstall this config? no problem. navigate to the next section or click [here](#uninstall)
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
 the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
+
+</details>
+
+<details>
+<summary id="uninstall">removing this rice</summary>
+
+<br>
+
+use your dotfile manager to de-symlink everything:
+```
+# ~/dotfiles
+fstow your-dotfiles
+stow -D nimi-dots
+rm -rf nimi-dots
+```
 
 </details>
 
@@ -166,20 +181,5 @@ there are a lot of keybinds, but the bare minimum you'll need are:
 
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
 
-
-</details>
-
-<details>
-<summary id="uninstall">removing this rice</summary>
-
-<br>
-
-use your dotfile manager to de-symlink everything:
-```
-# ~/dotfiles
-fstow your-dotfiles
-stow -D nimi-dots
-rm -rf nimi-dots
-```
 
 </details>
