@@ -89,8 +89,8 @@ the package you use for dotfile management doesn't really matter, just make sure
 
 navigate to your ~/dotfiles directory
 
-> the folder doesn't have to be "dotfiles", it just has to be at the root.
-if you decide not to place it at root, add the `-t $HOME` argument to the stow command
+> the folder doesn't have to be "dotfiles", it just has to be at $HOME (/home/your-name).
+if you decide not to place it at $HOME, add the `-t $HOME` argument to the stow command
 
 ```
 # ~/dotfiles
