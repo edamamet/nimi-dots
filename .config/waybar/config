@@ -1,31 +1,35 @@
 {
+    // positioning
     "spacing": 0,
     "margin-top": 10,
     "width": 800,
+
+    // layout
     "modules-left": [ 
         "clock",
+        "custom/weather",
     ],
+
     "modules-center": [ 
         "hyprland/workspaces",
     ],
+    
     "modules-right": [ 
+        "tray",
         "wireplumber",
         "battery",
     ],
 
+
+    // module configuration
     "clock": {
         "format": "{:%H:%M   %b %d}"
     },
 
     "battery": {
         "format": "{capacity} {icon}",
-        "states": {
-            "yay": 100,
-            "cruising": 80,
-            "okay": 60,
-            "warning": 30,
-            "danger": 10,
-        },
+        "format-charging": "{capacity} ",
+        "interval": 30,
         "format-icons": [" ", " ", " ", " ", " "],
     },
 
@@ -41,5 +45,19 @@
             "default": " ",
             "active": " "
         }
-    }
+    },
+
+    "custom/weather": {
+        "exec": "wttrbar --nerd --custom-indicator '{temp_C}° {ICON}'",
+        "interval": 500,
+        "return-type": "json",
+        "tooltip": false,
+    },
+
+    "tray": {
+        "spacing": 10,
+        "actions": {
+            "on-click-right": "asdf",
+        }
+    },
 }

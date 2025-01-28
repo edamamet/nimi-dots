@@ -50,3 +50,12 @@ window#waybar.empty #window {
 #workspaces button.active{
     color: @secondary;
 }
+
+#custom-weather {
+    color: @secondary;
+    padding: 0 10px;
+}
+
+#tray {
+    padding: 0 10px;
+}
