@@ -108,7 +108,7 @@ git restore .
 want to uninstall this config? no problem. navigate to the next section or click [here](#uninstall)
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
-the hyprland config has a bind `mod + b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
+the hyprland config has a bind `super+ b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
 
 </details>
 
@@ -171,14 +171,14 @@ find ~/.mozilla -name '*defaults.css'
 <br>
 
 there are a lot of keybinds, but the bare minimum you'll need are:
-> mod is your windows key (probably)
+> super is your windows key (probably)
 
 | bind | action |
 | --- | --- |
-| mod + enter | terminal |
-| mod + space | app launcher |
-| mod + e | file explorer |
-| mod + b | refresh everything* |
+| super + enter | terminal |
+| super + space | app launcher |
+| super + e | file explorer |
+| super + b | refresh everything* |
 
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
 
