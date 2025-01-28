@@ -34,7 +34,7 @@ if you're planning on [installing this rice](#additional-information), the follo
 but won't cause huge problems if you don't have them installed.  
 
 ```
-thunar hyprshot feh tree
+thunar hyprshot feh tree wttrbar
 ```
 
 # additional information
@@ -45,8 +45,8 @@ thunar hyprshot feh tree
 <br>
 
 > this installation guide uses stow/symlink managers. if you don't 
-know what that is, keep reading. otherwise, if you're not
-about that life, or you use nixos, you can install it the old-fashioned way, 
+know what that is, keep reading. otherwise, if you're not a stow user, 
+or you use nixos, you can install it the old-fashioned way, 
 but it's not covered here. you probably don't need an installation guide anyway
 
 i highly doubt anyone will try running this rice on bare metal, but if you would like to, 
@@ -58,7 +58,7 @@ there's no risk in losing **anything** as long as you back up your dotfiles (it'
 <br>
 
 i'd **highly** recommend using a dotfile/symlink manager to 
-backup your config. this rice was configured with 
+backup your config. the one this rice is configured with is 
 [`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it from 
 [this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs))
 
