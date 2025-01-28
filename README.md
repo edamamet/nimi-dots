@@ -19,6 +19,7 @@ hi these are my nimi-themed dotfiles
 | shell | zsh |
 | font | jetbrains mono + cascadia code |
 | browser | firefox ([textfox](https://github.com/adriankarlen/textfox) theme) |
+| files | thunar |
 | colours | matugen |
 | editor | nvim |
 | launcher | wofi |
@@ -29,13 +30,13 @@ hi these are my nimi-themed dotfiles
 | lock | hyprlock |
 
 if you're planning on [installing this rice](#additional-information), the following 
-**non-essential** (not riced (yet)) packages are used in my 
+**non-essential** packages are used in my 
 [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc) and 
 [hyprland config](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf), 
 but won't cause huge problems if you don't have them installed.  
 
 ```
-thunar hyprshot feh tree wttrbar
+hyprshot feh tree wttrbar
 ```
 
 # additional information
