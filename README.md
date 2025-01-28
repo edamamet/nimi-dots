@@ -26,6 +26,7 @@ hi these are my nimi-themed dotfiles
 | bar | waybar |
 | notification | mako |
 | wall | swww |
+| lock | hyprlock |
 
 if you're planning on [installing this rice](#additional-information), the following 
 **non-essential** (not riced (yet)) packages are used in my 
