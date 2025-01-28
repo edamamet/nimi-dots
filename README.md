@@ -61,15 +61,31 @@ there's no risk in losing **anything** as long as you back up your dotfiles (it'
 
 i'd **highly** recommend using a dotfile/symlink manager to 
 backup your config. the one this rice is configured with is 
-[`stow`](https://archlinux.org/packages/extra/any/stow/) (i learned it from 
-[this wonderful video by Dreams of Autonomy](https://youtu.be/y6XCebnB9gs))
+[`stow`](https://archlinux.org/packages/extra/any/stow/), but 
+choose whichever one you'd like
 
 <details>
-<summary>if you just followed the youtube tutorial</summary>
+<summary>stow basic</summary>
 <br>
 
-to make switching between dotfiles easier, move all your dotfiles (including .git/) 
-into a subdirectory. name it whatever you want. 
+1. make dotfiles directory at $HOME (`~/dotfiles`)
+2. make subdirectory for your config (~/dotfiles/your-dots)
+3. copy the configs you'd like to backup into `your-dots`
+> make sure the dots appear <b>exactly as they appear at
+$HOME</b>
+```
+# $HOME
+├── .config
+│   └── hypr
+│       └── hyprland.conf
+└── .zshrc
+
+# your-dots
+├── .config
+│   └── hypr
+│       └── hyprland.conf
+└── .zshrc
+```
 
 your dotfiles should now be in `~/dotfiles/your-dotfiles`
 
