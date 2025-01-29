@@ -29,13 +29,12 @@ hi these are my nimi-themed dotfiles
 | wall | swww |
 | lock | hyprlock |
 
-if you're planning on [installing this rice](#additional-information), the following 
-**non-essential** packages are used in my 
-[zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc) and 
-[hyprland config](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf), 
-but won't cause huge problems if you don't have them installed.  
-
+if you're planning on [installing this rice](#additional-information), the following packages are also used
 ```
+# required
+zoxide
+
+# optional
 hyprshot feh tree wttrbar
 ```
 

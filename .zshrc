@@ -11,3 +11,5 @@ alias theme-firefox="~/.mozilla/firefox/theme.sh"
 
 export EDITOR=nvim
 export VISUAL=nvim
+
+eval "$(zoxide init zsh)"
