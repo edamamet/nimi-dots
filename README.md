@@ -46,7 +46,7 @@ hyprshot feh tree wttrbar
 <br>
 
 > this installation guide uses stow/symlink managers. if you don't 
-know what that is, keep reading. otherwise, if you're not a stow user, 
+know what that is, keep reading. if you're not a stow user, 
 or you use nixos, you can install it the old-fashioned way, 
 but it's not covered here. you probably don't need an installation guide anyway
 
@@ -58,14 +58,12 @@ there's no risk in losing **anything** as long as you back up your dotfiles (it'
 
 <br>
 
-i'd **highly** recommend using a dotfile/symlink manager to 
-backup your config. the one this rice is configured with is 
+you can use a dotfile/symlink manager to backup your config. 
+the one this rice is configured with is 
 [`stow`](https://archlinux.org/packages/extra/any/stow/), but 
 choose whichever one you'd like
 
-<details>
-<summary>stow basics</summary>
-<br>
+### stow basics
 
 1. make dotfiles directory at $HOME (`~/dotfiles`)
 2. make subdirectory for your config (~/dotfiles/your-dots)
@@ -86,18 +84,20 @@ $HOME</b>
 └── .zshrc
 ```
 
-your dotfiles should now be in `~/dotfiles/your-dotfiles`
-
-this way, you can use `fstow your-dotfiles`, and you can switch to mine with
-`fstow nimi-dots`, and back again.
-
->`fstow` is an alias of mine and it's included in my [zshrc](https://github.com/edamamet/nimi-dots/blob/master/.zshrc).
-for reference, the alias is:
+4. commit your dotfiles to version control
 ```
-stow --override='.*?' --adopt
+# ~/dotfiles/your-dots
+git init
+git add .
+git ci -m 'yuh'
 ```
-
-</details>
+5. navigate back to the dotfiles directory and stow
+```
+# ~/dotfiles
+stow your-dots --adopt
+cd your-dots
+git restore .
+```
 </details>
 
 navigate to your ~/dotfiles directory
@@ -117,6 +117,9 @@ git restore .
 ```
 
 all you need to do now is hit `super + b` to refresh the rice. this will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
+
+> after refreshing, you'll have access to the `fstow` alias, which does the `stow --override='.*?' --adopt` command.
+you can now use `fstow your-dots` to go back to your rice **as long as both are under the same parent directory, otherwise it will not work**
 
 <details>
 <summary id="uninstall">want to uninstall the rice?</summary>
