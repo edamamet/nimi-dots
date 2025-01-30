@@ -123,7 +123,7 @@ all you need to do now is hit `super + b` to refresh the rice. this will run the
 
 <br>
 
-use your dotfile manager to de-symlink everything:
+switch back to your dotfiles, then get rid of mine:
 ```
 # ~/dotfiles
 fstow your-dotfiles
