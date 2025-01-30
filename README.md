@@ -64,7 +64,7 @@ backup your config. the one this rice is configured with is
 choose whichever one you'd like
 
 <details>
-<summary>stow basic</summary>
+<summary>stow basics</summary>
 <br>
 
 1. make dotfiles directory at $HOME (`~/dotfiles`)
