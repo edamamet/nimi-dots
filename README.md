@@ -116,6 +116,8 @@ cd nimi-dots
 git restore .
 ```
 
+all you need to do now is hit `super + b` to refresh almost everything. keep reading to configure the rest.
+
 want to uninstall this config? no problem. navigate to the next section or click [here](#uninstall)
 
 ### refreshing everything (wallpaper, bar, hyprland, etc.)
