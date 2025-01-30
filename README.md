@@ -40,6 +40,9 @@ hyprshot feh tree wttrbar
 
 # additional information
 
+> the installation + scripts are things that have worked for me, but if any of the instructions/code are dangerous or incorrect, please
+open an issue/pr - i'm still relatively new to this, after all
+
 <details>
 <summary>installing this rice (no risk!) (super duper beginner friendly!)</summary>
 
