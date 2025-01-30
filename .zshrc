@@ -8,6 +8,7 @@ alias feh="feh --scale-down --auto-zoom"
 alias tree="tree -aC -I .git"
 alias fstow="stow --override='.*?' --adopt"
 alias theme-firefox="~/.mozilla/firefox/theme.sh"
+alias cd="z"
 
 export EDITOR=nvim
 export VISUAL=nvim
