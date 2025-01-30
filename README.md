@@ -176,7 +176,7 @@ find ~/.mozilla -name '*defaults.css'
 </details>
 
 <details>
-<summary>keybinds</summary>
+<summary>keybinds (enough to get you started)</summary>
 
 <br>
 
