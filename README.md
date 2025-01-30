@@ -116,17 +116,10 @@ cd nimi-dots
 git restore .
 ```
 
-all you need to do now is hit `super + b` to refresh almost everything. keep reading to configure the rest.
-
-want to uninstall this config? no problem. navigate to the next section or click [here](#uninstall)
-
-### refreshing everything (wallpaper, bar, hyprland, etc.)
-the hyprland config has a bind `super+ b` that will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
-
-</details>
+all you need to do now is hit `super + b` to refresh the rice. this will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
 
 <details>
-<summary id="uninstall">removing this rice</summary>
+<summary id="uninstall">want to uninstall the rice?</summary>
 
 <br>
 
@@ -138,6 +131,7 @@ stow -D nimi-dots
 rm -rf nimi-dots
 ```
 
+</details>
 </details>
 
 <details>
