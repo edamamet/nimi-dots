@@ -7,7 +7,7 @@ hi these are my nimi-themed dotfiles
 ![1](./.github/1.png)
 > this wallpaper was made by [ShibeDraws](https://danbooru.donmai.us/posts/8745834)
 
-![2](./.github/02.png)
+![2](./.github/2.png)
 
 # grains 
 > because rice is composed of grains
