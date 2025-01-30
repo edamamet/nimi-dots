@@ -100,9 +100,6 @@ stow --override='.*?' --adopt
 </details>
 </details>
 
-the package you use for dotfile management doesn't really matter, just make sure to 
-[ignore the same files](https://github.com/edamamet/nimi-dots/blob/master/.stow-local-ignore).
-
 navigate to your ~/dotfiles directory
 
 > if your dotfiles directory is not at $HOME (/home/you/dotfiles), add the `-t $HOME` argument to the stow command
