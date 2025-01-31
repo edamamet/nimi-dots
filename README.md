@@ -138,6 +138,12 @@ switch back to your dotfiles, then get rid of mine:
 fstow your-dotfiles
 stow -D nimi-dots
 rm -rf nimi-dots
+
+# if you're using zsh, source it
+source ~/.zshrc
+
+# reboot to finish
+reboot
 ```
 
 </details>
