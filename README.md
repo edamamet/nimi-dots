@@ -17,7 +17,7 @@ hi these are my nimi-themed dotfiles
 | wm | hyprland |
 | terminal | kitty |
 | shell | zsh |
-| font | jetbrains mono + cascadia code |
+| font | [jetbrains mono](https://archlinux.org/packages/extra/any/ttf-jetbrains-mono-nerd/) + [cascadia code](https://archlinux.org/packages/extra/any/ttf-cascadia-code-nerd/) |
 | browser | firefox ([textfox](https://github.com/adriankarlen/textfox) theme) |
 | files | thunar |
 | colours | matugen |
