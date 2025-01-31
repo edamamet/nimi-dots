@@ -128,6 +128,8 @@ close kitty and reopen (super + q) to get the terminal riced as well.
 > at this point, you could `cd` back into your dotfiles directory
 and use the `fstow your-dots` to go back to your rice **as long as both are under the same parent directory, otherwise it will not work**
 
+if you don't see the titlebars, run `hyprpm update`. it should work now.
+
 <details>
 <summary id="uninstall">want to uninstall the rice?</summary>
 
