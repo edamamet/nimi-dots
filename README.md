@@ -117,12 +117,15 @@ git clone https://github.com/edamamet/nimi-dots.git
 stow --override='.*?' --adopt nimi-dots
 cd nimi-dots
 git restore .
+source ~/.zshrc
 ```
 
-all you need to do now is hit `super + b` to refresh the rice. this will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
+all you need to do now is hit `super + b` to refresh the rice.
+this will run the [refresh script](https://github.com/edamamet/dotfiles/blob/nimi/refresh-rice.sh) that'll take care of (mostly) everything, except for firefox, which is covered below.
+close kitty and reopen (super + q) to get the terminal riced as well.
 
-> after refreshing, you'll have access to the `fstow` alias, which does the `stow --override='.*?' --adopt` command.
-you can now use `fstow your-dots` to go back to your rice **as long as both are under the same parent directory, otherwise it will not work**
+> at this point, you could `cd` back into your dotfiles directory
+and use the `fstow your-dots` to go back to your rice **as long as both are under the same parent directory, otherwise it will not work**
 
 <details>
 <summary id="uninstall">want to uninstall the rice?</summary>
