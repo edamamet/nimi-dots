@@ -115,6 +115,7 @@ git clone https://github.com/edamamet/nimi-dots.git
 ```
 # force stow nimi-dots
 stow --override='.*?' --adopt nimi-dots
+# if you're using bash, open a new terminal now
 cd nimi-dots
 git restore .
 source ~/.zshrc
