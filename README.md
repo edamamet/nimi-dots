@@ -206,6 +206,4 @@ there are a lot of keybinds, but the bare minimum you'll need are:
 | super + b | refresh everything* |
 
 you can find the rest at [`~/.config/hypr/hyprland.conf`](https://github.com/edamamet/nimi-dots/blob/master/.config/hypr/hyprland.conf)
-
-
 </details>
