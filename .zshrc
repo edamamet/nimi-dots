@@ -1,5 +1,9 @@
 fastfetch
 
+HISTFILE="$HOME/.zsh_history"
+HISTSIZE=100000
+SAVEHIST=100000
+
 alias sdn="shutdown 0"
 alias fetch="fastfetch"
 alias syu="sudo pacman -Syu"
@@ -18,3 +22,4 @@ export EDITOR=nvim
 export VISUAL=nvim
 
 eval "$(zoxide init zsh)"
+bindkey -v
