@@ -23,7 +23,7 @@ hi these are my nimi-themed dotfiles
 | colours | matugen |
 | editor | nvim |
 | launcher | wofi |
-| titlebar | [hyprbars](https://hyprland.org/plugins/hyprbars/) |
+| titlebar | [hyprbars](https://github.com/hyprwm/hyprland-plugins/tree/main/hyprbars) |
 | bar | waybar |
 | notification | mako |
 | wall | swww |
